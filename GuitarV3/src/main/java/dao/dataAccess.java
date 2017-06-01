@@ -2,7 +2,7 @@ package dao;
 
 
 public class dataAccess {
-	private static String db="mysql";
+	private static String db="sqlite";
     public static GuitarDao createGuitarDao() {
 		GuitarDao result=null;
 		switch (db) {

@@ -19,20 +19,12 @@
 		<action name="FindGuitar" class="action.GuitarAction"  method="search">
 			<result name="success">/WEB-INF/content/searchresult.jsp</result>
 		</action>
-		<action name="AddGuitar" class="action.GuitarAction"  method="add">
-			<result name="none"></result>
-		</action>
-		
-		<action name="GetAllGuitars" class="action.GuitarAction"  method="show">
-			<result name="success">/WEB-INF/content/manage.jsp</result>
-		</action>
-		
 		<action name="addGuitar" class="action.GuitarAction"  method="add">
-			<result name="success">/WEB-INF/content/manage.jsp</result>
+			<result name="success">/WEB-INF/content/success.jsp</result>
 		</action>
 		
 		<action name="deleteGuitar" class="action.GuitarAction"  method="delete">
-			<result name="success">/WEB-INF/content/manage.jsp</result>
+			<result name="success">/WEB-INF/content/success.jsp</result>
 		</action>
 		
 	</package>

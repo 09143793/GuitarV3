@@ -9,9 +9,10 @@
 <body>
 
 <center>
-<h2>销售系统guitarV2</h2>
+<h2>销售系统guitarV3</h2>
 <br/>
 <h3>查询界面</h3>
+<a href="gadd">添加</a>
 <br></br>
 <form action="FindGuitar" method="post">
 	<label>builder:&nbsp;&nbsp;</label><input type="text" name="builder" /><br /><br />

@@ -9,7 +9,7 @@
 </head>
 <body>
 <center>
-查询结果<br /><br />
+ <h2><color=blue>结果显示页面</color></h2>
 <div class="catbox">
 	<table id="resultTable" border=2>
 		<thead>
@@ -22,6 +22,7 @@
 				<th>numStrings</th>
 				<th>backWood</th>
 				<th>topWood</th>
+				<th>删除吉他</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -34,7 +35,8 @@
 				<td class="type"><s:property value="#guitar.spec.type"/></td>
 				<td class="numStrings"><s:property value="#guitar.spec.numStrings"/></td>
 				<td class="backwWood"><s:property value="#guitar.spec.backWood"/></td>
-				<td class="topWood"><s:property value="#guitar.spec.topWood"/></td>					
+				<td class="topWood"><s:property value="#guitar.spec.topWood"/></td>
+				<td><a href="deleteGuitar?serialNumber=${requestScope.guitar.serialNumber}">删除</a></td>
 			</tr>
 
 			</s:iterator>
